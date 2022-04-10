@@ -1,0 +1,5 @@
+Django==4.0.3
+pandas==1.4.2
+plotly==5.7.0
+pyreadstat==1.1.4
+gunicorn==20.1.0

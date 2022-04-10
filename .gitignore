@@ -1,0 +1,10 @@
+*.pyc
+__pycache
+.DS_Store
+.env
+env/
+envnode/
+.idea
+**/__pycache__/**
+testes/*
+external/*

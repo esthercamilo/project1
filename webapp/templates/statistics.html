@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Análises</h3>
+<div>
+    {{ graph_dist_wesson | safe }}
+</div>
+
+<div>
+    <h4>Métricas para Wesson</h4>
+    {{ metrics_agg_wesson | safe }}
+</div>
+
+<div>
+    <h4>Métricas para Ruger-Smith</h4>
+    {{ metrics_agg_rugsmith | safe }}
+</div>
+
+<div>
+    <h4>p-value</h4>
+    {{ p_value }}
+</div>
+
+<p>A diferença é significativa</p>
+
+<div>
+    {{ graph_div_dist_rug_smith | safe }}
+</div>
+</body>
+</html>
+
+
+
